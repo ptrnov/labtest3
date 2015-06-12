@@ -1,5 +1,0 @@
-\runtime\*
-/runtime/*
-\runtime\log\*
-/runtime/log/*
-!.gitignore
