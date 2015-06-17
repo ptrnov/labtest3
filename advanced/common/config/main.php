@@ -27,8 +27,8 @@ return [
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=202.53.254.83;dbname=dbm0001',
-            'username' => 'lgoffice',
-            'password' =>'r4h4514',
+            'username' => 'xxxx',
+            'password' =>'xxxx',
             'charset' => 'utf8',
         ], 
 		
@@ -36,8 +36,8 @@ return [
         'db1' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=202.53.254.83;dbname=dbm0001',
-            'username' => 'lgoffice',
-            'password' =>'r4h4514',
+            'username' => 'xxxx',
+            'password' =>'xxxx',
             'charset' => 'utf8',
         ],
 		
@@ -45,8 +45,8 @@ return [
         'db2' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=202.53.254.83;dbname=hrd',
-            'username' => 'lgoffice',
-            'password' =>'r4h4514',
+            'username' => 'xxxx',
+            'password' =>'xxxx',
             'charset' => 'utf8',
         ],
 		
@@ -55,8 +55,8 @@ return [
         'db3' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=202.53.254.83;dbname=dbc002',
-            'username' => 'lgoffice',
-            'password' =>'r4h4514',
+            'username' => 'xxxx',
+            'password' =>'xxxxx',
             //'dsn' => 'oci:dbname=//10.10.99.3:1521/gosent',
             //'username' => 'gosent',
             //'password' => 'asd123',
@@ -67,8 +67,8 @@ return [
 		'db4' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=202.53.254.83;dbname=api',
-            'username' => 'lgoffice',
-            'password' =>'r4h4514',
+            'username' => 'xxxxx',
+            'password' =>'xxxxx',
             'charset' => 'utf8',
         ],
         'mailer' => [
