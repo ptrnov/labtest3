@@ -4,7 +4,7 @@ namespace lukisongroup\controllers\hrd;
 
 use Yii;
 use app\models\hrd\Employe;
-use app\models\hrd\Employedata;
+use app\models\hrd\Pendidikan;
 use app\models\hrd\EmployeSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -20,7 +20,7 @@ class EmployeController extends Controller
     {
         return [
             'verbs' => [
-                'class' => VerbFilter::className(),
+                'class' => VerbFilter::className(['Employe','Pendidikan']),
                 'actions' => [
                     'delete' => ['post'],
                 ],
@@ -34,7 +34,11 @@ class EmployeController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new EmployeSearch();
+	
+		
+		//print_r($command->queryRow());
+		
+		$searchModel = new EmployeSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 		
 		//$sql4="select * from employe";
@@ -47,7 +51,7 @@ class EmployeController extends Controller
 		
 		//print_r($dataProvider->getModels());
         return $this->render('index', [
-            'searchModel' => $searchModel,
+			//'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
 		

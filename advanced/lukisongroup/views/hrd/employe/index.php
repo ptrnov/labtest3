@@ -31,8 +31,11 @@ $this->params['breadcrumbs'][] = $this->title;
 				?> 
 
 			<?php
+			
+				//print_r($dataProvider);
 				echo GridView::widget([
 					'dataProvider' => $dataProvider,
+					
 					//'filterModel' => $searchModel,
 					'columns' => [
 						['class' => 'yii\grid\SerialColumn'],
@@ -40,18 +43,22 @@ $this->params['breadcrumbs'][] = $this->title;
 						array(
 							'format' => 'html',
 							//'format' => 'image',
-							'value'=>function($data) { return Html::img(Yii::getAlias('@path_emp') . '/'. $data->EMP_IMAGE, ['width'=>'20']); },
+							//'value'=>function($data) { return Html::img(Yii::getAlias('@path_emp') . '/'. $data->EMP_IMG, ['width'=>'20']); },
 							//'value'=>function($data) { return Html::img('http://192.168.56.101/advanced/lukisongroup/web/upload/image/'.$data->EMP_IMAGE, ['class'=>'img-circle pull-left','width'=>'40']); },
 						 ),
-						'EMP_ID',
-						'EMP_NM',
-						'employedata.EMP_ALAMAT',
+						'emp.EMP_ID',
+						'emp.EMP_NM',
+						'user.username',
+						'emp.EMP_IMG',
+					//	'EMP_TLP',
+						'NILAI',
 						
 						['class' => 'yii\grid\ActionColumn'],
 						['class' => 'yii\grid\CheckboxColumn'],
 						['class' => '\kartik\grid\RadioColumn'],
 					],
-									
+					
+
 					'panel'=>[
 						'heading' =>true,// $hdr,//<div class="col-lg-4"><h8>'. $hdr .'</h8></div>',
 					    'type' =>GridView::TYPE_SUCCESS,//TYPE_WARNING, //TYPE_DANGER, //GridView::TYPE_SUCCESS,//GridView::TYPE_INFO, //TYPE_PRIMARY, TYPE_INFO
@@ -63,7 +70,7 @@ $this->params['breadcrumbs'][] = $this->title;
 					'responsive'=>true,
 					'bordered'=>true,
 					'striped'=>true,
-					
+
 				]);
 			?>
 	</div>

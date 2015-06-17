@@ -15,30 +15,33 @@ class Employe extends \yii\db\ActiveRecord
     /**
      * @inheritdoc
      */
-	 
-	 
-	 
 	 public static function getDb()
 	{
 		/* Author -ptr.nov- : HRD | Dashboard I */
 		return \Yii::$app->db2;  
 	}
 	
-	   
-    public static function tableName()
+	public static function tableName()
     {
-        return '{{%employe}}';
+        return '{{%a0001}}';
     }
 	
-	public function getEmploye()
-	{
-		return $this->hasOne(Employe::className(), ['EMP_ID' => 'id']);
-	}
 	
-	public function getEmployedata()
+	 
+	public function getPen()
 	{
-		return $this->hasOne(Employedata::className(), ['EMP_ID' => 'EMP_ID']);
+		//return $this->hasOne(Pendidikan::className(), ['EMP_ID' => 'EMP_ID']);
+		return $this->hasMany(Pendidikan::className(), ['EMP_ID' => 'EMP_ID']);
 	}
+	 
+	
+	   
+   
+	
+	
+	
+	
+	
     /**
      * @inheritdoc
      */
@@ -50,10 +53,19 @@ class Employe extends \yii\db\ActiveRecord
             [['EMP_NM'], 'string', 'max' => 50], 
 			//[['employedata.EMP_ALAMAT'], 'string', 'max' => 100],
             [['EMP_AVATAR'], 'string', 'max' => 50],
-            [['EMP_IMAGE'], 'string', 'max' => 50]
+            [['EMP_IMG'], 'string', 'max' => 50],
+			//[['pendidikan.PEN_NM'],'safe'],
         ];
     }
 
+	//public function proc_dashboard($username)
+	//{
+	
+		//return $command = Yii::app()->db2->createCommand('call DashboardLogin($username)')->queryAll();
+
+		//$command->execute();
+	//}
+	
     /**
      * @inheritdoc
      */
@@ -62,7 +74,8 @@ class Employe extends \yii\db\ActiveRecord
         return [
             'EMP_ID' => Yii::t('app', 'Brg  ID'),
             'EMP_NM' => Yii::t('app', 'Brg  Nm'),
-			//'employedata.EMP_ALAMAT' => Yii::t('app', 'Alamat'),
+			'EMP_IMG' => Yii::t('app', 'PICTURE'),
+			//'pendidikan.PEN_NM' => Yii::t('app', 'Nama Sekolah'),
         ];
     }
 	 
@@ -71,7 +84,7 @@ class Employe extends \yii\db\ActiveRecord
         return [
             'EMP_ID'=>['type'=>Form::INPUT_TEXT, 'options'=>['placeholder'=>'Enter username...']],
             'EMP_NM'=>['type'=>Form::INPUT_TEXT, 'options'=>['placeholder'=>'Enter password...']],
-            'EMP_IMGAGE'=>['type'=>Form::INPUT_TEXT],
+            'EMP_IMG'=>['type'=>Form::INPUT_TEXT],
            // 'actions'=>['type'=>Form::INPUT_RAW, 'value'=>Html::submitButton('Submit', ['class'=>'btn btn-primary'])];
         ];
     }   
