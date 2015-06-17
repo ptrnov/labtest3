@@ -30,7 +30,6 @@ use kartik\tabs\TabsX;
 				];
 			
 			
-			
 				echo TabsX::widget([
 						'items'=>$items,
 						'position'=>TabsX::POS_ABOVE,
@@ -39,8 +38,7 @@ use kartik\tabs\TabsX;
 						'encodeLabels'=>false,
 						'align'=>TabsX::ALIGN_CENTER,
 						
-					]);	
-										
+					]);
 				?>
 		
    
