@@ -23,10 +23,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="EmployeController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/controllers/hrd/EmployeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="-9.0" vertical-offset="293" max-vertical-offset="2754">
+              <folding>
+                <element signature="e#48#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/views/dashboard/corp/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="22" selection-start="2505" selection-end="2505" vertical-scroll-proportion="0.696767" vertical-offset="990" max-vertical-offset="2652">
+              <folding>
+                <element signature="e#7#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/views/hrd/employe/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="48" selection-start="887" selection-end="901" vertical-scroll-proportion="-19.461538" vertical-offset="72" max-vertical-offset="969">
+              <folding>
+                <element signature="e#8#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/views/hrd/employe/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="31" selection-start="1654" selection-end="1654" vertical-scroll-proportion="-10.461538" vertical-offset="561" max-vertical-offset="3128">
+            <state line="36" column="33" selection-start="890" selection-end="924" vertical-scroll-proportion="43.153847" vertical-offset="1734" max-vertical-offset="3128">
               <folding>
                 <element signature="e#6#48#0" expanded="true" />
                 <element signature="e#49#70#0" expanded="true" />
@@ -48,7 +81,7 @@
       <file leaf-file-name="Dept.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Dept.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="267" selection-end="267" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1173">
+            <state line="14" column="1" selection-start="267" selection-end="267" vertical-scroll-proportion="1.4615384" vertical-offset="276" max-vertical-offset="1173">
               <folding>
                 <element signature="e#68#92#0" expanded="true" />
               </folding>
@@ -56,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeSearch.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EmployeSearch.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/EmployeSearch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="5" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.55308217" vertical-offset="816" max-vertical-offset="2329">
+            <state line="72" column="5" selection-start="1702" selection-end="1702" vertical-scroll-proportion="-22.23077" vertical-offset="561" max-vertical-offset="2329">
               <folding />
             </state>
           </provider>
@@ -68,7 +101,7 @@
       <file leaf-file-name="Employe.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Employe.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="30" selection-start="3059" selection-end="3077" vertical-scroll-proportion="-8.730769" vertical-offset="1541" max-vertical-offset="2159">
+            <state line="87" column="21" selection-start="2185" selection-end="2185" vertical-scroll-proportion="-9.653846" vertical-offset="1211" max-vertical-offset="2159">
               <folding />
             </state>
           </provider>
@@ -79,48 +112,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="55" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1326">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Userlogin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Userlogin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="0" selection-end="1016" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/controllers/hrd/EmployeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="11" selection-start="1592" selection-end="1592" vertical-scroll-proportion="-34.653847" vertical-offset="0" max-vertical-offset="2703">
-              <folding>
-                <element signature="e#48#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/views/layouts/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="196" column="36" selection-start="7090" selection-end="7090" vertical-scroll-proportion="-12.423077" vertical-offset="3009" max-vertical-offset="3774">
-              <folding>
-                <element signature="e#6#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Corp.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Corp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="27" selection-start="221" selection-end="221" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1173">
-              <folding>
-                <element signature="e#68#92#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -144,7 +135,6 @@
         <option value="$PROJECT_DIR$/advanced/lukisongroup/models/system/side_menu/M1000Query.php" />
         <option value="$PROJECT_DIR$/advanced/common/config/main-local.php" />
         <option value="$PROJECT_DIR$/advanced/common/config/main.php" />
-        <option value="$PROJECT_DIR$/advanced/lukisongroup/controllers/hrd/EmployeController.php" />
         <option value="$PROJECT_DIR$/advanced/lukisongroup/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Pendidikan.php" />
         <option value="$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Corp.php" />
@@ -153,6 +143,8 @@
         <option value="$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Employe.php" />
         <option value="$PROJECT_DIR$/advanced/lukisongroup/views/hrd/employe/index.php" />
         <option value="$PROJECT_DIR$/advanced/lukisongroup/models/hrd/EmployeSearch.php" />
+        <option value="$PROJECT_DIR$/advanced/lukisongroup/views/hrd/employe/view.php" />
+        <option value="$PROJECT_DIR$/advanced/lukisongroup/controllers/hrd/EmployeController.php" />
       </list>
     </option>
   </component>
@@ -302,7 +294,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="hrd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="employe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,11 +324,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hrd" />
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labtest3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labtest3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="employe" />
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lukisongroup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -519,11 +541,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32982087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -617,24 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/views/dashboard/corp/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="51" selection-start="830" selection-end="847" vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="2652">
-          <folding>
-            <element signature="e#7#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/controllers/hrd/EmployeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="11" selection-start="1592" selection-end="1592" vertical-scroll-proportion="-34.653847" vertical-offset="0" max-vertical-offset="2703">
-          <folding>
-            <element signature="e#48#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Userlogin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="3" selection-start="0" selection-end="1016" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1105">
@@ -642,36 +646,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/views/layouts/main.php">
+    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/views/hrd/employe/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="36" selection-start="7090" selection-end="7090" vertical-scroll-proportion="-12.423077" vertical-offset="3009" max-vertical-offset="3774">
+        <state line="36" column="33" selection-start="890" selection-end="924" vertical-scroll-proportion="43.153847" vertical-offset="1734" max-vertical-offset="3128">
           <folding>
-            <element signature="e#6#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Corp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="221" selection-end="221" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1173">
-          <folding>
-            <element signature="e#68#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Pendidikan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="55" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Dept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="267" selection-end="267" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1173">
-          <folding>
-            <element signature="e#68#92#0" expanded="true" />
+            <element signature="e#6#48#0" expanded="true" />
+            <element signature="e#49#70#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -683,28 +664,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Employe.php">
+    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Dept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="30" selection-start="3059" selection-end="3077" vertical-scroll-proportion="-8.730769" vertical-offset="1541" max-vertical-offset="2159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/views/hrd/employe/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="31" selection-start="1654" selection-end="1654" vertical-scroll-proportion="-10.461538" vertical-offset="561" max-vertical-offset="3128">
+        <state line="14" column="1" selection-start="267" selection-end="267" vertical-scroll-proportion="1.4615384" vertical-offset="276" max-vertical-offset="1173">
           <folding>
-            <element signature="e#6#48#0" expanded="true" />
-            <element signature="e#49#70#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#68#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/EmployeSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="5" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.55308217" vertical-offset="816" max-vertical-offset="2329">
+        <state line="72" column="5" selection-start="1702" selection-end="1702" vertical-scroll-proportion="-22.23077" vertical-offset="561" max-vertical-offset="2329">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Employe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="21" selection-start="2185" selection-end="2185" vertical-scroll-proportion="-9.653846" vertical-offset="1211" max-vertical-offset="2159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Corp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="221" selection-end="221" vertical-scroll-proportion="0.20847268" vertical-offset="0" max-vertical-offset="1173">
+          <folding>
+            <element signature="e#68#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="36" selection-start="7090" selection-end="7090" vertical-scroll-proportion="0.5072464" vertical-offset="2877" max-vertical-offset="3774">
+          <folding>
+            <element signature="e#6#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/models/hrd/Pendidikan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="55" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/views/hrd/employe/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="48" selection-start="887" selection-end="901" vertical-scroll-proportion="-19.461538" vertical-offset="72" max-vertical-offset="969">
+          <folding>
+            <element signature="e#8#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/controllers/hrd/EmployeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="-9.0" vertical-offset="293" max-vertical-offset="2754">
+          <folding>
+            <element signature="e#48#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/lukisongroup/views/dashboard/corp/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="22" selection-start="2505" selection-end="2505" vertical-scroll-proportion="0.696767" vertical-offset="990" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#7#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

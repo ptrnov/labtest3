@@ -6603,3 +6603,427 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1434605436.458
     'REQUEST_TIME' => 1434605436
 ]
+2015-06-18 08:25:24 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\hrd\Employe::EMP_IMAGE' in D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('EMP_IMAGE')
+#1 D:\xampp\htdocs\labtest3\advanced\lukisongroup\views\hrd\employe\view.php(37): yii\db\BaseActiveRecord->__get('EMP_IMAGE')
+#2 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(325): require('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#4 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(lukisongroup\controllers\hrd\EmployeController))
+#5 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('view', Array, Object(lukisongroup\controllers\hrd\EmployeController))
+#6 D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\hrd\EmployeController.php(85): yii\base\Controller->render('view', Array)
+#7 [internal function]: lukisongroup\controllers\hrd\EmployeController->actionView('LG.0005')
+#8 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('view', Array)
+#11 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('hrd/employe/vie...', Array)
+#12 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\labtest3\advanced\lukisongroup\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2015-06-18 08:25:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'LG.0005'
+]
+
+$_COOKIE = [
+    '_csrf' => '33fdee41fda0f84b62f205b501c72ce08cf3560382604232b6448c1e75584a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1UciP3ZftoXq7m-fAunqx_Ua2SqPF4Fs\";}'
+    'PHPSESSID' => '8pfl40lsktbhko0907498vi1o2'
+    '_identity' => 'bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/index'
+    'HTTP_COOKIE' => '_csrf=33fdee41fda0f84b62f205b501c72ce08cf3560382604232b6448c1e75584a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221UciP3ZftoXq7m-fAunqx_Ua2SqPF4Fs%22%3B%7D; PHPSESSID=8pfl40lsktbhko0907498vi1o2; _identity=bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/labtest3/advanced/lukisongroup/web/index.php'
+    'REMOTE_PORT' => '54353'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=LG.0005'
+    'REQUEST_URI' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/view?id=LG.0005'
+    'SCRIPT_NAME' => '/labtest3/advanced/lukisongroup/web/index.php'
+    'PATH_INFO' => '/hrd/employe/view'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\hrd\\employe\\view'
+    'PHP_SELF' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/view'
+    'REQUEST_TIME_FLOAT' => 1434608724.281
+    'REQUEST_TIME' => 1434608724
+]
+2015-06-18 09:06:13 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\hrd\Employe::EMP_IMAGE' in D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('EMP_IMAGE')
+#1 D:\xampp\htdocs\labtest3\advanced\lukisongroup\views\hrd\employe\view.php(37): yii\db\BaseActiveRecord->__get('EMP_IMAGE')
+#2 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(325): require('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#4 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(lukisongroup\controllers\hrd\EmployeController))
+#5 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('view', Array, Object(lukisongroup\controllers\hrd\EmployeController))
+#6 D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\hrd\EmployeController.php(85): yii\base\Controller->render('view', Array)
+#7 [internal function]: lukisongroup\controllers\hrd\EmployeController->actionView('LG.0005')
+#8 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('view', Array)
+#11 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('hrd/employe/vie...', Array)
+#12 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\labtest3\advanced\lukisongroup\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2015-06-18 09:06:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'LG.0005'
+]
+
+$_COOKIE = [
+    '_csrf' => '33fdee41fda0f84b62f205b501c72ce08cf3560382604232b6448c1e75584a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1UciP3ZftoXq7m-fAunqx_Ua2SqPF4Fs\";}'
+    'PHPSESSID' => '8pfl40lsktbhko0907498vi1o2'
+    '_identity' => 'bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/index'
+    'HTTP_COOKIE' => '_csrf=33fdee41fda0f84b62f205b501c72ce08cf3560382604232b6448c1e75584a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221UciP3ZftoXq7m-fAunqx_Ua2SqPF4Fs%22%3B%7D; PHPSESSID=8pfl40lsktbhko0907498vi1o2; _identity=bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/labtest3/advanced/lukisongroup/web/index.php'
+    'REMOTE_PORT' => '54663'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=LG.0005'
+    'REQUEST_URI' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/view?id=LG.0005'
+    'SCRIPT_NAME' => '/labtest3/advanced/lukisongroup/web/index.php'
+    'PATH_INFO' => '/hrd/employe/view'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\hrd\\employe\\view'
+    'PHP_SELF' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/view'
+    'REQUEST_TIME_FLOAT' => 1434611173.424
+    'REQUEST_TIME' => 1434611173
+]
+2015-06-18 10:07:18 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: lukisongroup\models\system\side_menu\M1000::emp' in D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('emp')
+#1 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(202): yii\db\BaseActiveRecord->__get('emp')
+#2 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(197): yii\helpers\BaseArrayHelper::getValue(Object(lukisongroup\models\system\side_menu\M1000), 'emp', NULL)
+#3 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(lukisongroup\models\system\side_menu\M1000), 'emp.EMP_ID')
+#4 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(lukisongroup\models\system\side_menu\M1000), Array, 0)
+#5 D:\xampp\htdocs\labtest3\advanced\vendor\kartik-v\yii2-grid\DataColumn.php(154): yii\grid\DataColumn->renderDataCellContent(Object(lukisongroup\models\system\side_menu\M1000), Array, 0)
+#6 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\GridView.php(498): kartik\grid\DataColumn->renderDataCell(Object(lukisongroup\models\system\side_menu\M1000), Array, 0)
+#7 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\GridView.php(467): yii\grid\GridView->renderTableRow(Object(lukisongroup\models\system\side_menu\M1000), Array, 0)
+#8 D:\xampp\htdocs\labtest3\advanced\vendor\kartik-v\yii2-grid\GridView.php(735): yii\grid\GridView->renderTableBody()
+#9 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\GridView.php(338): kartik\grid\GridView->renderTableBody()
+#10 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(151): yii\grid\GridView->renderItems()
+#11 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\GridView.php(307): yii\widgets\BaseListView->renderSection('{items}')
+#12 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '<div class="pan...')
+#15 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\GridView.php(282): yii\widgets\BaseListView->run()
+#16 D:\xampp\htdocs\labtest3\advanced\vendor\kartik-v\yii2-grid\GridView.php(706): yii\grid\GridView->run()
+#17 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Widget.php(97): kartik\grid\GridView->run()
+#18 D:\xampp\htdocs\labtest3\advanced\lukisongroup\views\hrd\employe\index.php(111): yii\base\Widget::widget(Array)
+#19 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(325): require('D:\\xampp\\htdocs...')
+#20 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#21 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(lukisongroup\controllers\hrd\EmployeController))
+#22 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(lukisongroup\controllers\hrd\EmployeController))
+#23 D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\hrd\EmployeController.php(55): yii\base\Controller->render('index', Array)
+#24 [internal function]: lukisongroup\controllers\hrd\EmployeController->actionIndex()
+#25 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#26 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#27 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#28 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('hrd/employe/ind...', Array)
+#29 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#30 D:\xampp\htdocs\labtest3\advanced\lukisongroup\web\index.php(18): yii\base\Application->run()
+#31 {main}
+2015-06-18 10:07:17 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '33fdee41fda0f84b62f205b501c72ce08cf3560382604232b6448c1e75584a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1UciP3ZftoXq7m-fAunqx_Ua2SqPF4Fs\";}'
+    'PHPSESSID' => '8pfl40lsktbhko0907498vi1o2'
+    '_identity' => 'bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/labtest3/advanced/lukisongroup/web/index.php/dashboard/dept/index'
+    'HTTP_COOKIE' => '_csrf=33fdee41fda0f84b62f205b501c72ce08cf3560382604232b6448c1e75584a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221UciP3ZftoXq7m-fAunqx_Ua2SqPF4Fs%22%3B%7D; PHPSESSID=8pfl40lsktbhko0907498vi1o2; _identity=bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/labtest3/advanced/lukisongroup/web/index.php'
+    'REMOTE_PORT' => '54795'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/index'
+    'SCRIPT_NAME' => '/labtest3/advanced/lukisongroup/web/index.php'
+    'PATH_INFO' => '/hrd/employe/index'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\hrd\\employe\\index'
+    'PHP_SELF' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/index'
+    'REQUEST_TIME_FLOAT' => 1434614837.587
+    'REQUEST_TIME' => 1434614837
+]
+2015-06-18 10:08:05 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: searchModel' in D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\hrd\EmployeController.php:47
+Stack trace:
+#0 D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\hrd\EmployeController.php(47): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 47, Array)
+#1 [internal function]: lukisongroup\controllers\hrd\EmployeController->actionIndex()
+#2 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#5 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('hrd/employe/ind...', Array)
+#6 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\labtest3\advanced\lukisongroup\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-06-18 10:08:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '33fdee41fda0f84b62f205b501c72ce08cf3560382604232b6448c1e75584a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1UciP3ZftoXq7m-fAunqx_Ua2SqPF4Fs\";}'
+    'PHPSESSID' => '8pfl40lsktbhko0907498vi1o2'
+    '_identity' => 'bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/labtest3/advanced/lukisongroup/web/index.php/dashboard/dept/index'
+    'HTTP_COOKIE' => '_csrf=33fdee41fda0f84b62f205b501c72ce08cf3560382604232b6448c1e75584a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221UciP3ZftoXq7m-fAunqx_Ua2SqPF4Fs%22%3B%7D; PHPSESSID=8pfl40lsktbhko0907498vi1o2; _identity=bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/labtest3/advanced/lukisongroup/web/index.php'
+    'REMOTE_PORT' => '54800'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/index'
+    'SCRIPT_NAME' => '/labtest3/advanced/lukisongroup/web/index.php'
+    'PATH_INFO' => '/hrd/employe/index'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\hrd\\employe\\index'
+    'PHP_SELF' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/index'
+    'REQUEST_TIME_FLOAT' => 1434614885.778
+    'REQUEST_TIME' => 1434614885
+]
+2015-06-18 10:08:09 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: searchModel' in D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\hrd\EmployeController.php:47
+Stack trace:
+#0 D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\hrd\EmployeController.php(47): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 47, Array)
+#1 [internal function]: lukisongroup\controllers\hrd\EmployeController->actionIndex()
+#2 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#5 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('hrd/employe/ind...', Array)
+#6 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\labtest3\advanced\lukisongroup\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-06-18 10:08:09 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '33fdee41fda0f84b62f205b501c72ce08cf3560382604232b6448c1e75584a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1UciP3ZftoXq7m-fAunqx_Ua2SqPF4Fs\";}'
+    'PHPSESSID' => '8pfl40lsktbhko0907498vi1o2'
+    '_identity' => 'bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/labtest3/advanced/lukisongroup/web/index.php/dashboard/dept/index'
+    'HTTP_COOKIE' => '_csrf=33fdee41fda0f84b62f205b501c72ce08cf3560382604232b6448c1e75584a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221UciP3ZftoXq7m-fAunqx_Ua2SqPF4Fs%22%3B%7D; PHPSESSID=8pfl40lsktbhko0907498vi1o2; _identity=bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/labtest3/advanced/lukisongroup/web/index.php'
+    'REMOTE_PORT' => '54802'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/index'
+    'SCRIPT_NAME' => '/labtest3/advanced/lukisongroup/web/index.php'
+    'PATH_INFO' => '/hrd/employe/index'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\hrd\\employe\\index'
+    'PHP_SELF' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/index'
+    'REQUEST_TIME_FLOAT' => 1434614889.529
+    'REQUEST_TIME' => 1434614889
+]
+2015-06-18 10:08:11 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: searchModel' in D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\hrd\EmployeController.php:47
+Stack trace:
+#0 D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\hrd\EmployeController.php(47): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 47, Array)
+#1 [internal function]: lukisongroup\controllers\hrd\EmployeController->actionIndex()
+#2 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#5 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('hrd/employe/ind...', Array)
+#6 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\labtest3\advanced\lukisongroup\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-06-18 10:08:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '33fdee41fda0f84b62f205b501c72ce08cf3560382604232b6448c1e75584a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1UciP3ZftoXq7m-fAunqx_Ua2SqPF4Fs\";}'
+    'PHPSESSID' => '8pfl40lsktbhko0907498vi1o2'
+    '_identity' => 'bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/labtest3/advanced/lukisongroup/web/index.php/dashboard/dept/index'
+    'HTTP_COOKIE' => '_csrf=33fdee41fda0f84b62f205b501c72ce08cf3560382604232b6448c1e75584a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221UciP3ZftoXq7m-fAunqx_Ua2SqPF4Fs%22%3B%7D; PHPSESSID=8pfl40lsktbhko0907498vi1o2; _identity=bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/labtest3/advanced/lukisongroup/web/index.php'
+    'REMOTE_PORT' => '54804'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/index'
+    'SCRIPT_NAME' => '/labtest3/advanced/lukisongroup/web/index.php'
+    'PATH_INFO' => '/hrd/employe/index'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\hrd\\employe\\index'
+    'PHP_SELF' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/index'
+    'REQUEST_TIME_FLOAT' => 1434614890.571
+    'REQUEST_TIME' => 1434614890
+]

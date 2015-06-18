@@ -42,10 +42,13 @@ class EmployeController extends Controller
         $side_menu=json_decode($side_menu,true);
 
         //return $this->render('index',['side_menu'=>$side_menu]);
-        $searchModel = new M1000Search();
+        //$searchModel = new M1000Search();
+        //$dataProvider=EmployeSearch::searchALL(Yii::$app->request->queryParams);
+
         $searchModel = new EmployeSearch();
         $dataProvider = $searchModel->searchALL(Yii::$app->request->queryParams);
         $dataProvider1 = $searchModel->search(Yii::$app->request->queryParams);
+
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
