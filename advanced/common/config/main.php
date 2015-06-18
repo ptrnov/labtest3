@@ -26,7 +26,7 @@ return [
         /* Author -ptr.nov- : Test Project  */
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=dbm0001',
+            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=xxxx',
             'username' => 'xxxx',
             'password' =>'xxxx',
             'charset' => 'utf8',
@@ -35,7 +35,7 @@ return [
 		/* Author -ptr.nov- : Admin Menu  */
         'db1' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=xxx.xxxx.xxxx.xxxx;dbname=dbm0001',
+            'dsn' => 'mysql:host=xxx.xxxx.xxxx.xxxx;dbname=xxxx',
             'username' => 'xxxx',
             'password' =>'xxxx',
             'charset' => 'utf8',
@@ -44,7 +44,7 @@ return [
 		 /* Author -ptr.nov- : HRD | Dashboard I */
         'db2' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=hrd',
+            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=xxxx',
             'username' => 'xxxx',
             'password' =>'xxxx',
             'charset' => 'utf8',
@@ -54,7 +54,7 @@ return [
 		 
         'db3' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=dbc002',
+            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=xxxx',
             'username' => 'xxxx',
             'password' =>'xxxxx',
             //'dsn' => 'oci:dbname=//10.10.99.3:1521/gosent',
@@ -66,7 +66,7 @@ return [
 		
 		'db4' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=api',
+            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=xxxx',
             'username' => 'xxxxx',
             'password' =>'xxxxx',
             'charset' => 'utf8',
