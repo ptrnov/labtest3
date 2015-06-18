@@ -18,6 +18,9 @@ class EmployeSearch extends Employe
 	 public $emp;
      public $pen;
 	 public $user;
+     public $corpOne;
+     public $deptOne;
+     public $statusOne;
 	
     /**
      * @inheritdoc
@@ -46,7 +49,30 @@ class EmployeSearch extends Employe
      *
      * @return ActiveDataProvider
      */
+
     public function search($params)
+    {
+        $query = Pendidikan::find()->JoinWith('emp',true,'INNER JOIN')
+            ->JoinWith('user',true,'INNER JOIN');
+            //->Where(['a0001.EMP_ID'=>'LG.0005']);
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+        ]);
+        return $dataProvider;
+    }
+
+    public function searchALL($params)
+    {
+        $query = Employe::find()->JoinWith('corpOne',true,'LEFT JOIN')
+                         ->JoinWith('deptOne',true,'left JOIN')
+                         ->JoinWith('statusOne',true,'left JOIN');;
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+        ]);
+        return $dataProvider;
+    }
+
+    public function searchtest($params)
     {
 	
 		//$query = Employe::find();

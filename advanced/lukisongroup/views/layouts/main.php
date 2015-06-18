@@ -179,7 +179,8 @@ dmstr\web\AdminLteAsset::register($this);
 						<div class="content-wrapper" >
 							<aside class="main-sidebar">
 								<?php
-									if (!Yii::$app->user->isGuest) {
+
+                                    if (!Yii::$app->user->isGuest) {
 										echo SideNav::widget([
 											'items' => $menuItems,
 											'encodeLabels' => false,
@@ -188,13 +189,11 @@ dmstr\web\AdminLteAsset::register($this);
 											'options' => ['class' => 'sidebar-nav'],
 										]);
 									};
+
 								?>
 
 
 								<form class="sidebar-form" method="get" action="#"></form>
-								<li class="header">
-									testsss
-								</li>
 							</aside>
 							<section class="content">
 								<?php /*echo Breadcrumbs::widget([

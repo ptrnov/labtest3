@@ -25,23 +25,35 @@ class Employe extends \yii\db\ActiveRecord
     {
         return '{{%a0001}}';
     }
-	
-	
-	 
+
+
+    /* Join Class Pendidikan */
 	public function getPen()
 	{
-		//return $this->hasOne(Pendidikan::className(), ['EMP_ID' => 'EMP_ID']);
-		return $this->hasMany(Pendidikan::className(), ['EMP_ID' => 'EMP_ID']);
+		return $this->hasOne(Pendidikan::className(), ['EMP_ID' => 'EMP_ID']);
+		//return $this->hasMany(Pendidikan::className(), ['EMP_ID' => 'EMP_ID']);
 	}
-	 
-	
-	   
-   
-	
-	
-	
-	
-	
+
+    /* Join Class Coorporation */
+    public function getCorpOne()
+    {
+        return $this->hasOne(Corp::className(), ['CORP_ID' => 'CORP_ID']);
+        //return $this->hasMany(Pendidikan::className(), ['EMP_ID' => 'EMP_ID']);
+    }
+
+    /* Join Class Department */
+    public function getDeptOne()
+    {
+        return $this->hasOne(Dept::className(), ['DEP_ID' => 'DEP_ID']);
+        //return $this->hasMany(Pendidikan::className(), ['EMP_ID' => 'EMP_ID']);
+    }
+
+    /* Join Class Status Employe */
+    public function getStatusOne()
+    {
+        return $this->hasOne(Status::className(), ['STS_ID' => 'EMP_STS']);
+        //return $this->hasMany(Pendidikan::className(), ['EMP_ID' => 'EMP_ID']);
+    }
     /**
      * @inheritdoc
      */
@@ -72,10 +84,26 @@ class Employe extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'EMP_ID' => Yii::t('app', 'Brg  ID'),
-            'EMP_NM' => Yii::t('app', 'Brg  Nm'),
-			'EMP_IMG' => Yii::t('app', 'PICTURE'),
-			//'pendidikan.PEN_NM' => Yii::t('app', 'Nama Sekolah'),
+            'EMP_ID' => Yii::t('app', 'Employee.ID'),
+            'EMP_NM' => Yii::t('app', 'First Name'),
+            'EMP_NM_BLK' => Yii::t('app', 'Last Name'),
+            'EMP_STS' => Yii::t('app', 'Status'),
+            'EMP_IMG' => Yii::t('app', 'Pic'),
+            'EMP_KTP' => Yii::t('app', 'KTP'),
+            'EMP_ALAMAT' => Yii::t('app', 'Alamat'),
+            'EMP_GENDER' => Yii::t('app', 'Jenis Kelamin'),
+            'EMP_TLP' => Yii::t('app', 'Telphone'),
+            'EMP_HP' => Yii::t('app', 'Handphone'),
+            'EMP_EMAIL' => Yii::t('app', 'Email'),
+            'CORP_ID' => Yii::t('app', 'Corp.ID'),
+            'DEP_ID' => Yii::t('app', 'Department'),
+            'GRP_NM' => Yii::t('app', 'Modul'),
+            //join Corp a0001
+            'corpOne.CORP_NM' => Yii::t('app', 'Company'),
+            //join Dept a0002
+            'deptOne.DEP_NM' => Yii::t('app', 'Department'),
+            //join Dept a0009
+            'statusOne.STS_NM' => Yii::t('app', 'Status'),
         ];
     }
 	 
@@ -88,12 +116,7 @@ class Employe extends \yii\db\ActiveRecord
            // 'actions'=>['type'=>Form::INPUT_RAW, 'value'=>Html::submitButton('Submit', ['class'=>'btn btn-primary'])];
         ];
     }   
-	public function getimageurl()
-   {
-      // return your image url here
-      //return \Yii::$app->request->BaseUrl.'/upload_img/'.$this->IMG_IMAGE;
-   }
-     
+
 }
 
 
