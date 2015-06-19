@@ -27,26 +27,26 @@ return [
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=202.53.254.83;dbname=dbm0001',
-            'username' => 'xxxx',
-            'password' =>'xxxx',
+            'username' => 'lgoffice',
+            'password' =>'r4h4514',
             'charset' => 'utf8',
         ], 
 		
 		/* Author -ptr.nov- : Admin Menu  */
         'db1' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=xxx.xxxx.xxxx.xxxx;dbname=dbm0001',
-            'username' => 'xxxx',
-            'password' =>'xxxx',
+            'dsn' => 'mysql:host=202.53.254.83;dbname=dbm001',
+            'username' => 'lgoffice',
+            'password' =>'r4h4514',
             'charset' => 'utf8',
         ],
 		
 		 /* Author -ptr.nov- : HRD | Dashboard I */
         'db2' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=hrd',
-            'username' => 'xxxx',
-            'password' =>'xxxx',
+            'dsn' => 'mysql:host=202.53.254.83;dbname=dbm002',
+            'username' => 'lgoffice',
+            'password' =>'r4h4514',
             'charset' => 'utf8',
         ],
 		
@@ -54,9 +54,9 @@ return [
 		 
         'db3' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=dbc002',
-            'username' => 'xxxx',
-            'password' =>'xxxxx',
+            'dsn' => 'mysql:host=202.53.254.83;dbname=dbc002',
+            'username' => 'lgoffice',
+            'password' =>'r4h4514',
             //'dsn' => 'oci:dbname=//10.10.99.3:1521/gosent',
             //'username' => 'gosent',
             //'password' => 'asd123',
@@ -66,9 +66,9 @@ return [
 		
 		'db4' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=api',
-            'username' => 'xxxxx',
-            'password' =>'xxxxx',
+            'dsn' => 'mysql:host=202.53.254.83;dbname=dbm000',
+            'username' => 'lgoffice',
+            'password' =>'r4h4514',
             'charset' => 'utf8',
         ],
         'mailer' => [

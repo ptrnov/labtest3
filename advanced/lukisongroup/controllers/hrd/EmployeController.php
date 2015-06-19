@@ -117,7 +117,7 @@ class EmployeController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->BRG_ID]);
+            return $this->redirect(['view', 'id' => $model->EMP_ID]);
         } else {
             return $this->render('update', [
                 'model' => $model,
