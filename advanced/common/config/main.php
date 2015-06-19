@@ -27,7 +27,7 @@ return [
         'db' => [
             'class' => 'yii\db\Connection',
 <<<<<<< HEAD
-            'dsn' => 'mysql:host=202.53.254.83;dbname=dbm0001',
+            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=dbm0001',
             'username' => 'lgoffice',
             'password' =>'r4h4514',
 =======
@@ -42,7 +42,7 @@ return [
         'db1' => [
             'class' => 'yii\db\Connection',
 <<<<<<< HEAD
-            'dsn' => 'mysql:host=202.53.254.83;dbname=dbm001',
+            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=dbm001',
             'username' => 'lgoffice',
             'password' =>'r4h4514',
 =======
@@ -57,7 +57,7 @@ return [
         'db2' => [
             'class' => 'yii\db\Connection',
 <<<<<<< HEAD
-            'dsn' => 'mysql:host=202.53.254.83;dbname=dbm002',
+            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=dbm002',
             'username' => 'lgoffice',
             'password' =>'r4h4514',
 =======
@@ -73,7 +73,7 @@ return [
         'db3' => [
             'class' => 'yii\db\Connection',
 <<<<<<< HEAD
-            'dsn' => 'mysql:host=202.53.254.83;dbname=dbc002',
+            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=dbc002',
             'username' => 'lgoffice',
             'password' =>'r4h4514',
 =======
@@ -91,7 +91,7 @@ return [
 		'db4' => [
             'class' => 'yii\db\Connection',
 <<<<<<< HEAD
-            'dsn' => 'mysql:host=202.53.254.83;dbname=dbm000',
+            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxx;dbname=dbm000',
             'username' => 'lgoffice',
             'password' =>'r4h4514',
 =======
