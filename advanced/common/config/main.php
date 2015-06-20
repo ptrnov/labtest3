@@ -41,7 +41,7 @@ return [
             'charset' => 'utf8',
         ],
 		
-		 /* Author -ptr.nov- : HRD | Dashboard iI */
+		 /* Author -ptr.nov- : HRD | Dashboard I */
         'db2' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=dbm002',
