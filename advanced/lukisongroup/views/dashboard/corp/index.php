@@ -11,11 +11,27 @@ use kartik\tabs\TabsX;
 <div class="panel panel-default">
     
 			<?php
+				$StrukturLg = DetailView::widget([
+					'model' => $model,
+					'attributes' => [
+						[	'label'=>'',
+							'format'=>'HTML',
+							'value'=>Html::img(Yii::getAlias('@path_emp_laptop_public') . '/struktur1.jpg', ['width'=>'900','height'=>'350']),
+							//'value'=>Html::img(Yii::getAlias('@path_emp_laptop_public') . '/'. $model->EMP_IMAGE, ['width'=>'100']),
+							
+						],		
+					],
+				]);
+			
+			
+			
 			
 				$content1='test ahhhhhhhhhhhhhhhhhhh';
 				$items=[
 					[
-						'label'=>'<i class="glyphicon glyphicon-home"></i> PT. LukisonGroup','content'=>$content1,
+						'label'=>'<i class="glyphicon glyphicon-home"></i> PT. LukisonGroup','content'=>$StrukturLg,
+						 'encodeLabels'=>false,
+						 'align'=>TabsX::ALIGN_CENTER,
 						'active'=>true,
 						
 					],
@@ -30,15 +46,18 @@ use kartik\tabs\TabsX;
 				];
 			
 			
+			
 				echo TabsX::widget([
 						'items'=>$items,
 						'position'=>TabsX::POS_ABOVE,
-						'height'=>TabsX::SIZE_TINY,
+						'height'=>TabsX::SIZE_LARGE,//SIZE_MEDIUM,
+						'bordered'=>true,
 						'bordered'=>true,
 						'encodeLabels'=>false,
 						'align'=>TabsX::ALIGN_CENTER,
 						
-					]);
+					]);	
+										
 				?>
 		
    

@@ -7745,3 +7745,234 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1434785791.946
     'REQUEST_TIME' => 1434785791
 ]
+2015-06-20 10:00:27 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @path_emp' in D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 D:\xampp\htdocs\labtest3\advanced\lukisongroup\views\hrd\employe\index.php(40): yii\BaseYii::getAlias('@path_emp')
+#1 [internal function]: yii\base\View->{closure}(Object(app\models\hrd\Employe), 'LG.0005', 0, Object(kartik\grid\DataColumn))
+#2 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\DataColumn.php(190): call_user_func(Object(Closure), Object(app\models\hrd\Employe), 'LG.0005', 0, Object(kartik\grid\DataColumn))
+#3 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\hrd\Employe), 'LG.0005', 0)
+#4 D:\xampp\htdocs\labtest3\advanced\vendor\kartik-v\yii2-grid\DataColumn.php(154): yii\grid\DataColumn->renderDataCellContent(Object(app\models\hrd\Employe), 'LG.0005', 0)
+#5 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\GridView.php(498): kartik\grid\DataColumn->renderDataCell(Object(app\models\hrd\Employe), 'LG.0005', 0)
+#6 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\GridView.php(467): yii\grid\GridView->renderTableRow(Object(app\models\hrd\Employe), 'LG.0005', 0)
+#7 D:\xampp\htdocs\labtest3\advanced\vendor\kartik-v\yii2-grid\GridView.php(735): yii\grid\GridView->renderTableBody()
+#8 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\GridView.php(338): kartik\grid\GridView->renderTableBody()
+#9 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(151): yii\grid\GridView->renderItems()
+#10 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\GridView.php(307): yii\widgets\BaseListView->renderSection('{items}')
+#11 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '<div class="pan...')
+#14 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\grid\GridView.php(282): yii\widgets\BaseListView->run()
+#15 D:\xampp\htdocs\labtest3\advanced\vendor\kartik-v\yii2-grid\GridView.php(706): yii\grid\GridView->run()
+#16 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Widget.php(97): kartik\grid\GridView->run()
+#17 D:\xampp\htdocs\labtest3\advanced\lukisongroup\views\hrd\employe\index.php(69): yii\base\Widget::widget(Array)
+#18 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(325): require('D:\\xampp\\htdocs...')
+#19 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#20 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(lukisongroup\controllers\hrd\EmployeController))
+#21 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(lukisongroup\controllers\hrd\EmployeController))
+#22 D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\hrd\EmployeController.php(57): yii\base\Controller->render('index', Array)
+#23 [internal function]: lukisongroup\controllers\hrd\EmployeController->actionIndex()
+#24 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#25 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#26 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#27 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('hrd/employe/ind...', Array)
+#28 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 D:\xampp\htdocs\labtest3\advanced\lukisongroup\web\index.php(18): yii\base\Application->run()
+#30 {main}
+2015-06-20 10:00:26 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ini32hstpt51umn3ftsub3bua7'
+    '_csrf' => '57ba97c8ce79984a5ee9c6ed45fae8307705d57b1149bd443a4babaab831c9b8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bzbvIK5pGG_BF2weEZLBSfWj6kwaS4Hw\";}'
+    '_identity' => 'bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/labtest3/advanced/lukisongroup/web/index.php'
+    'HTTP_COOKIE' => 'PHPSESSID=ini32hstpt51umn3ftsub3bua7; _csrf=57ba97c8ce79984a5ee9c6ed45fae8307705d57b1149bd443a4babaab831c9b8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bzbvIK5pGG_BF2weEZLBSfWj6kwaS4Hw%22%3B%7D; _identity=bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/labtest3/advanced/lukisongroup/web/index.php'
+    'REMOTE_PORT' => '51808'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/index'
+    'SCRIPT_NAME' => '/labtest3/advanced/lukisongroup/web/index.php'
+    'PATH_INFO' => '/hrd/employe/index'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\hrd\\employe\\index'
+    'PHP_SELF' => '/labtest3/advanced/lukisongroup/web/index.php/hrd/employe/index'
+    'REQUEST_TIME_FLOAT' => 1434787226.799
+    'REQUEST_TIME' => 1434787226
+]
+2015-06-20 10:22:06 [::1][1][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in D:\xampp\htdocs\labtest3\advanced\lukisongroup\views\dashboard\corp\index.php:15
+Stack trace:
+#0 D:\xampp\htdocs\labtest3\advanced\lukisongroup\views\dashboard\corp\index.php(15): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 15, Array)
+#1 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(325): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(lukisongroup\controllers\dashboard\CorpController))
+#4 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(lukisongroup\controllers\dashboard\CorpController))
+#5 D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\dashboard\CorpController.php(60): yii\base\Controller->render('index')
+#6 [internal function]: lukisongroup\controllers\dashboard\CorpController->actionIndex()
+#7 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#10 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('dashboard/corp/...', Array)
+#11 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\labtest3\advanced\lukisongroup\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-06-20 10:22:01 [::1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ini32hstpt51umn3ftsub3bua7'
+    '_csrf' => '57ba97c8ce79984a5ee9c6ed45fae8307705d57b1149bd443a4babaab831c9b8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bzbvIK5pGG_BF2weEZLBSfWj6kwaS4Hw\";}'
+    '_identity' => 'bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/labtest3/advanced/lukisongroup/web/index.php/dashboard/general/index'
+    'HTTP_COOKIE' => 'PHPSESSID=ini32hstpt51umn3ftsub3bua7; _csrf=57ba97c8ce79984a5ee9c6ed45fae8307705d57b1149bd443a4babaab831c9b8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bzbvIK5pGG_BF2weEZLBSfWj6kwaS4Hw%22%3B%7D; _identity=bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/labtest3/advanced/lukisongroup/web/index.php'
+    'REMOTE_PORT' => '52322'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/labtest3/advanced/lukisongroup/web/index.php/dashboard/corp/index'
+    'SCRIPT_NAME' => '/labtest3/advanced/lukisongroup/web/index.php'
+    'PATH_INFO' => '/dashboard/corp/index'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\dashboard\\corp\\index'
+    'PHP_SELF' => '/labtest3/advanced/lukisongroup/web/index.php/dashboard/corp/index'
+    'REQUEST_TIME_FLOAT' => 1434788519.774
+    'REQUEST_TIME' => 1434788519
+]
+2015-06-20 10:23:17 [::1][1][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The table does not exist: {{%sa0001}}' in D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\db\ActiveRecord.php:298
+Stack trace:
+#0 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#1 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#2 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('ALG')
+#3 D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\dashboard\CorpController.php(247): yii\db\BaseActiveRecord::findOne('ALG')
+#4 D:\xampp\htdocs\labtest3\advanced\lukisongroup\controllers\dashboard\CorpController.php(62): lukisongroup\controllers\dashboard\CorpController->findModel('ALG')
+#5 [internal function]: lukisongroup\controllers\dashboard\CorpController->actionIndex()
+#6 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#9 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('dashboard/corp/...', Array)
+#10 D:\xampp\htdocs\labtest3\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\labtest3\advanced\lukisongroup\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-06-20 10:23:17 [::1][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ini32hstpt51umn3ftsub3bua7'
+    '_csrf' => '57ba97c8ce79984a5ee9c6ed45fae8307705d57b1149bd443a4babaab831c9b8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bzbvIK5pGG_BF2weEZLBSfWj6kwaS4Hw\";}'
+    '_identity' => 'bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/labtest3/advanced/lukisongroup/web/index.php/dashboard/general/index'
+    'HTTP_COOKIE' => 'PHPSESSID=ini32hstpt51umn3ftsub3bua7; _csrf=57ba97c8ce79984a5ee9c6ed45fae8307705d57b1149bd443a4babaab831c9b8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bzbvIK5pGG_BF2weEZLBSfWj6kwaS4Hw%22%3B%7D; _identity=bf529a7eb9e602cdb2176907bb6cc0ddc7a9d0a38f8f0e962e5acd77f85d4814a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22azLSTAYr7Y7TLsEAML-LsVq9cAXLyAWa%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/labtest3/advanced/lukisongroup/web/index.php'
+    'REMOTE_PORT' => '52327'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/labtest3/advanced/lukisongroup/web/index.php/dashboard/corp/index'
+    'SCRIPT_NAME' => '/labtest3/advanced/lukisongroup/web/index.php'
+    'PATH_INFO' => '/dashboard/corp/index'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\dashboard\\corp\\index'
+    'PHP_SELF' => '/labtest3/advanced/lukisongroup/web/index.php/dashboard/corp/index'
+    'REQUEST_TIME_FLOAT' => 1434788597.457
+    'REQUEST_TIME' => 1434788597
+]

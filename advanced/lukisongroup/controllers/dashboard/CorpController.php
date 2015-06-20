@@ -57,7 +57,10 @@ class CorpController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        //return $this->render('index');
+		return $this->render('index', [
+            'model' => $this->findModel('ALG'),
+        ]);
 
     }
 	public function actionTabsData()
