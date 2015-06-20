@@ -103,17 +103,17 @@ dmstr\web\AdminLteAsset::register($this);
 								  'items' => [
 									 // equivalent to the above
 									  [
-										'content' => '<img src="'.Yii::getAlias('@path_carousel') . '/carousel1.jpg" style="width:100%; height:100%"/>',
+										'content' => '<img src="'.Yii::getAlias('@path_carousel_laptop_public') . '/carousel1.jpg" style="width:100%; height:100%"/>',
 										'options' =>[ 'style' =>'width: 100%; height: 150px;'],
 									  ],
 									[
-										'content' => '<img src="'.Yii::getAlias('@path_carousel') . '/carousel2.jpg" style="width:100%; height:100%"/>',
+										'content' => '<img src="'.Yii::getAlias('@path_carousel_laptop_public') . '/carousel2.jpg" style="width:100%; height:100%"/>',
 										'options' =>[ 'style' =>'width: 100% ; height: 150px;'],
 									  ],
 									  
 									  // the item contains both the image and the caption
 									  [
-										  'content' => '<img src="'.Yii::getAlias('@path_carousel') . '/carousel3.jpg" style="width:100%;height:100%"/>',
+										  'content' => '<img src="'.Yii::getAlias('@path_carousel_laptop_public') . '/carousel3.jpg" style="width:100%;height:100%"/>',
 										  //'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
 										 'options' =>[ 'style' =>'width: 100%; height: 150px;'],
 										
