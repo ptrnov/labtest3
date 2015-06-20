@@ -26,45 +26,27 @@ return [
         /* Author -ptr.nov- : Test Project  */
         'db' => [
             'class' => 'yii\db\Connection',
-<<<<<<< HEAD
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=dbm0001',
-            'username' => 'lgoffice',
-            'password' =>'r4h4514',
-=======
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=xxxx',
-            'username' => 'xxxx',
-            'password' =>'xxxx',
->>>>>>> origin/master
+            'dsn' => 'mysql:host=localhost;dbname=dbm0001',
+            'username' => 'root',
+            'password' =>'',
             'charset' => 'utf8',
         ], 
 		
 		/* Author -ptr.nov- : Admin Menu  */
         'db1' => [
             'class' => 'yii\db\Connection',
-<<<<<<< HEAD
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=dbm001',
-            'username' => 'lgoffice',
-            'password' =>'r4h4514',
-=======
-            'dsn' => 'mysql:host=xxx.xxxx.xxxx.xxxx;dbname=xxxx',
-            'username' => 'xxxx',
-            'password' =>'xxxx',
->>>>>>> origin/master
+            'dsn' => 'mysql:host=localhost;dbname=dbm001',
+            'username' => 'root',
+            'password' =>'',
             'charset' => 'utf8',
         ],
 		
 		 /* Author -ptr.nov- : HRD | Dashboard I */
         'db2' => [
             'class' => 'yii\db\Connection',
-<<<<<<< HEAD
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=dbm002',
-            'username' => 'lgoffice',
-            'password' =>'r4h4514',
-=======
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=xxxx',
-            'username' => 'xxxx',
-            'password' =>'xxxx',
->>>>>>> origin/master
+            'dsn' => 'mysql:host=localhost;dbname=dbm002',
+            'username' => 'root',
+            'password' =>'',
             'charset' => 'utf8',
         ],
 		
@@ -72,15 +54,9 @@ return [
 		 
         'db3' => [
             'class' => 'yii\db\Connection',
-<<<<<<< HEAD
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=dbc002',
-            'username' => 'lgoffice',
-            'password' =>'r4h4514',
-=======
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=xxxx',
-            'username' => 'xxxx',
-            'password' =>'xxxxx',
->>>>>>> origin/master
+            'dsn' => 'mysql:host=localhost;dbname=dbc002',
+            'username' => 'root',
+            'password' =>'',
             //'dsn' => 'oci:dbname=//10.10.99.3:1521/gosent',
             //'username' => 'gosent',
             //'password' => 'asd123',
@@ -90,15 +66,9 @@ return [
 		
 		'db4' => [
             'class' => 'yii\db\Connection',
-<<<<<<< HEAD
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxx;dbname=dbm000',
-            'username' => 'lgoffice',
-            'password' =>'r4h4514',
-=======
-            'dsn' => 'mysql:host=xxxx.xxxx.xxxx.xxxx;dbname=xxxx',
-            'username' => 'xxxxx',
-            'password' =>'xxxxx',
->>>>>>> origin/master
+            'dsn' => 'mysql:host=localhost;dbname=dbm000',
+            'username' => 'root',
+            'password' =>'',
             'charset' => 'utf8',
         ],
         'mailer' => [
